@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transportation Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <form id="transportationForm">
+      <div class="form-group">
+        <p>What typs of transportation do you use to travel to work?</p>
+        <input type="checkbox" name="transportationWork" value="walk">Walk<br>
+        <input type="checkbox" name="transportationWork" value="car">Car<br>
+        <input type="checkbox" name="transportationWork" value="bike">Bike<br>
+        <input type="checkbox" name="transportationWork" value="fly">Fly<br>
+      </div>
+      <div class="form-group">
+        <p>What typs of transportation do you use to travel to go Out?</p>
+        <input type="checkbox" name="transportationOut" value="bus">Double Decker Bus<br>
+        <input type="checkbox" name="transportationOut" value="car">Car<br>
+        <input type="checkbox" name="transportationOut" value="bike">Bike<br>
+        <input type="checkbox" name="transportationOut" value="uber">Uber<br>
+      </div>
+      <button type"submit">Click</button>
+    </form>
+    <span id="work">
+      <p>Types of transportation you use to go to work</p>
+    </span>
+    <span id="out">
+      <p>Types of transportation you use to go out</p>
+    </span>
+  </body>
+</html>
